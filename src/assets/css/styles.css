@@ -1,4 +1,4 @@
-span,button,li,input{
+span,button,li,input,h1{
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 *,
@@ -12,12 +12,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  background: #2c3e50;
-  padding-top: 30px;
+  background: #2c3e50 !important  ;
+
 }
 #app {
   max-width: 700px;
-  margin: 0 auto;
 }
 
 .add-product {
@@ -60,4 +59,13 @@ input[type="submit"] {
   color: #000;
   font-size: 16px;
   cursor: pointer;
+}
+.user {
+  color: #fff;
+  float: right;
+  margin-right: 50px;
+  display: flex;
+}
+.user span {
+  color: #f84460;
 }

@@ -1,24 +1,27 @@
 {
+  "users": [
+    {
+      "email": "suresh@gmail.com",
+      "name": "suresh",
+      "password": "suresh123",
+      "id": 1
+    }
+  ],
   "products": [
-    {
-      "title": "sfdf",
-      "price": "6556",
-      "id": 7
-    },
-    {
-      "title": "sdf",
-      "price": "sd",
-      "id": 8
-    },
-    {
-      "title": "sfddfsd",
-      "price": "656",
-      "id": 9
-    },
     {
       "title": "fn",
       "price": "fg",
       "id": 10
+    },
+    {
+      "title": "rthhrt",
+      "price": "58558",
+      "id": 11
+    },
+    {
+      "title": "rrr",
+      "price": "999",
+      "id": 12
     }
   ]
 }

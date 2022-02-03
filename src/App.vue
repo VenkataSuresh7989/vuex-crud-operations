@@ -1,23 +1,20 @@
 <template>
-  <div class="app">
+  <div >
     <div>
-      <p style="color:white">Welcome: <span style="color:rgb(248, 68, 96)">{{ this.$store.state.userName }}</span></p>
+      <Navbar/>
     </div>
-    <AddProduct />
-    <Products />
+    <router-view />
   </div>
 </template>
 
 <script>
-import Products from "./components/Products.vue";
-import AddProduct from "./components/AddProduct.vue";
+import Navbar from "./components/Navbar.vue";
 
 export default {
   name: "app",
 
   components: {
-    Products,
-    AddProduct,
+    Navbar,
   },
 };
 </script>
